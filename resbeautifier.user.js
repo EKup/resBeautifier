@@ -222,7 +222,8 @@ function ResBeautifier() {
             // Если это наука или деньги - создаем ссылку для слива
             if (resId <= 1) {
                 var upLink = this.createElement('a', {
-                    'href': resId == 0 ? '/scienceup' : '/moneyup'
+                    'href': 'javascript:void(0)',
+					'onclick': resId == 0 ? '$("#scienceup").trigger("click")' : '$("#moneyup").trigger("click")'
                 });
                 $(upLink).append(iconImg);
 
