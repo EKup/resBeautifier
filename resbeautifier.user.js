@@ -37,6 +37,7 @@ function ResBeautifier() {
         '.storemax { display:block; color:#000; font-weight:bold; text-align:center; padding-bottom:10px; width:100%; }'
     ];
 
+
     this.colors = {
         'r': ['da1b2a', 'e22b2d', 'df362f', 'de4b41', 'e15f52', 'e06f67', 'e3827c', 'e89295', 'e9a8ae', 'ecbdc5'],
         'g': ['c2ddd8', 'acd0c4', '92c2b2', '7fbc9b', '6eba8b', '61b67b', '5cae6c', '52a752', '50a347', '4ea242']
